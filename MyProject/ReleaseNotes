@@ -1,0 +1,9 @@
+TM4C123_CProject_v1p2   29 October 2014
+  Fix path variable to inc directory in current project so changing the project
+    name doesn't break the path
+  Removed the built-in GCC cross compiler from the list of providers for the
+    build paths and directories, eliminated a spurious error message
+  Modified startup_TM4C.s so that the Usage Fault, Bus Fault, and Memory
+    Management Fault exceptions are enabled. Better for debugging.
+
+TM4C123_CProject_v1p1    2 October 2014
